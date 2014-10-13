@@ -1,0 +1,86 @@
+/*"if" statement for screen and min-width*/
+@media screen and (max-width:386px){
+
+	h1{
+		font-size: 2.5em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	nav ul li{
+		font-size: 1em;
+		padding: 0 0px 0 0px;
+	}
+}
+
+@media screen and (min-width: 480px){
+	/*////////////////////////////////////////
+	////////////2 collumn layout//////////////
+	////////////////////////////////////////*/
+		h1{
+			font-size: 3em;
+		}
+		#primary{
+			width: 50%;
+			float: left;
+		}
+		#secondary{
+			width: 40%;
+			float: right;
+		}
+
+	/*////////////////////////////////////////
+	/////////////////portfolio////////////////
+	////////////////////////////////////////*/
+		#gallery li{
+			width: 28.3333%
+		}
+		#gallery li:nth-child(4n){
+			clear: left;
+		}
+
+	/*////////////////////////////////////////
+	/////////////////portfolio////////////////
+	////////////////////////////////////////*/
+		.profile-photo{
+			float:left;
+			margin: 0 5% 80px 0;
+		}
+
+}
+
+@media screen and (min-width: 660px){
+	/*////////////////////////////////////////
+	/////////////////header///////////////////
+	////////////////////////////////////////*/
+		h2{
+		padding-left: 7px;
+		}
+		nav{
+			background: none; 
+			float: right;
+			font-size: 1.125em;
+			margin-right: 5%;
+			text-align: right;
+			width: 49%; 
+		}
+		nav ul li{
+			padding:0 0px 0 5px;
+		}
+		#logo{
+			float: left;
+			margin-left: 5%;
+			text-align: left;
+			width: 41%;
+		}
+		h1{
+			font-size: 2.5em;
+		}
+		h2{
+			font-size: .825em;
+			margin-bottom: 20px;
+		}
+		header{
+			border-bottom: 5px solid #599a68;
+		}
+}
